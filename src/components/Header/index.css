@@ -1,0 +1,110 @@
+* {
+  font-family: 'Roboto';
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+.dark-header {
+  background-color: #313131;
+}
+.light-header {
+  background-color: #ffffff;
+}
+.header-items-container {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-app-logo {
+  width: 140px;
+}
+.header-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+}
+.theme-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 0px;
+}
+.profile-img {
+  width: 30px;
+}
+.light-logout-button {
+  background-color: transparent;
+  color: #4f46e5;
+  border: 1px solid #4f46e5;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  padding: 6px 16px 6px 16px;
+  border-radius: 3px;
+}
+.dark-logout-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  padding: 6px 16px 6px 16px;
+  border-radius: 3px;
+}
+.popup-box {
+  border-radius: 6px;
+  width: 30vw;
+  height: 18vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.dark-popup {
+  background-color: #313131;
+  color: #ffffff;
+}
+.light-popup {
+  background-color: #ffffff;
+  color: #000000;
+}
+.cancel-button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid orange;
+  color: orange;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 6px 16px 6px 16px;
+  cursor: pointer;
+}
+.confirm-button {
+  background-color: #3b82f6;
+  outline: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 6px 16px 6px 16px;
+  border: none;
+  cursor: pointer;
+}
+.popup-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
